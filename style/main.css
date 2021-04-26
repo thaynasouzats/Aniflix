@@ -1,0 +1,140 @@
+:root{
+    --vermelho:#6040d3;
+    --preta:#a068e0;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+   background:rgb(15, 99, 224);
+   font-family: 'Bradley Hand,',
+   cursive,
+   serif;
+   color:whitesmoke;
+}
+
+
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header .logo{
+    margin-left: 5px;
+    color: violet;
+    font-family: 'Arial Black', Times;
+    font-size:40px;
+}
+
+header nav a{
+    text-decoration:none;
+    color:rgb(192, 139, 223);
+    margin-right: 10px;
+}
+
+
+header nav a:hover{
+    color:rgb(15, 15, 15);
+}
+
+
+.filme-principal{
+    font-size:16px;
+    background: linear-gradient(rgba(117, 115, 115, 0.5),rgba(2, 2, 2, 0.5)100%),  url('/img/wp1894643.jpg');
+
+    height:600px;
+    background-size:cover;
+ 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.filme-principal .descricao{
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+
+.filme-principal .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Apple Chancery',
+    cursive sans-serif;
+}
+
+.botao{
+    background-color: rgba(70, 8, 59, 0.5);
+    border:none;
+    color: rgb(157, 1, 219);
+
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor:  pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color:rgb(223, 116, 205);
+    color:rgb(255, 255, 255);
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+
+.carrosel-filmes{
+    margin-top:5px;
+}
+
+.box-filme {
+    width: 500px;
+    height: 500px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
